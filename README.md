@@ -1,8 +1,8 @@
-# Automated-model-ensemble-Technique-for-improved-Accuracy# Credit Card Fraud Detection
+## Automated-model-ensemble-Technique-for-improved-Accuracy### Credit Card Fraud Detection
 
 This project aims to develop a machine learning model to detect fraudulent credit card transactions using various models, including RandomForest, XGBoost, and GradientBoosting. The model uses a stacked ensemble approach to improve prediction accuracy.
 
-# Credit Card Fraud Detection Dataset
+## Credit Card Fraud Detection Dataset
 
 The dataset used in this project is a credit card fraud detection dataset. It is preprocessed by handling missing values, outlier removal, feature scaling, and dimensionality reduction using PCA. The dataset is available in the repository.
 
@@ -39,6 +39,6 @@ The dataset used in this project is a credit card fraud detection dataset. It is
 6. **Start the Streamlit App**:
    streamlit run fraud_detection_streamlit_app.py
 
-# License
+## License
 
 This project is licensed under the MIT License - see the LICENSE file for details.
