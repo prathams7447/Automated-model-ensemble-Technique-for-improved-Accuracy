@@ -71,8 +71,6 @@ stacking_classifier = StackingClassifier(
     n_jobs=1
 )
 
-
-print("Before Cross-Validation Accuracy")
 #  Cross-Validation
 kf = KFold(n_splits=2, shuffle=True, random_state=42)
 cv_scores = cross_val_score(stacking_classifier, X_train, y_train, cv=kf, scoring='accuracy', n_jobs=1)

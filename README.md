@@ -9,6 +9,7 @@ The dataset used in this project is a credit card fraud detection dataset. It is
 ### Files in the Repository:
 
 - `train_fraud_detection_model.py`: Script to train the fraud detection model.
+- `train_fraud_detection_model.ipynb`: Jupyter notebook to train the fraud detection model.
 - `fraud_detection_api.py`: Flask API for serving predictions from the trained model.
 - `fraud_detection_streamlit_app.py`: Streamlit app for user interaction with fraud detection API.
 - `creditcard.csv`: Dataset used for model training.
@@ -31,7 +32,10 @@ The dataset used in this project is a credit card fraud detection dataset. It is
    pip install -r requirements.txt
 
 4. **Train the Model: Run the following script to train the fraud detection model**:
-   python train_fraud_detection_model.py
+   Using the Python script:
+    python train_fraud_detection_model.py
+
+   Or using the Jupyter notebook: Open the notebook train_fraud_detection_model.ipynb in Jupyter and run the cells to train the model.
 
 5. **Start the Flask API: Run the Flask API to serve the trained model for predictions**:
    python fraud_detection_api.py
