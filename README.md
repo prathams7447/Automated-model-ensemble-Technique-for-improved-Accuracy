@@ -35,9 +35,11 @@ The dataset used in this project is a credit card fraud detection dataset. It is
 
 5. **Start the Flask API: Run the Flask API to serve the trained model for predictions**:
    python fraud_detection_api.py
+   The API will run on http://localhost:5000.
 
 6. **Start the Streamlit App**:
    streamlit run fraud_detection_streamlit_app.py
+   Streamlit App will run on http://localhost:8501
 
 ## License
 
