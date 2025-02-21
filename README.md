@@ -1,4 +1,4 @@
-## Automated-model-ensemble-Technique-for-improved-Accuracy### Credit Card Fraud Detection
+## Automated-model-ensemble-Technique-for-improved-Accuracy# Credit Card Fraud Detection
 
 This project aims to develop a machine learning model to detect fraudulent credit card transactions using various models, including RandomForest, XGBoost, and GradientBoosting. The model uses a stacked ensemble approach to improve prediction accuracy.
 
@@ -33,7 +33,7 @@ The dataset used in this project is a credit card fraud detection dataset. It is
 
 4. **Train the Model: Run the following script to train the fraud detection model**:
    Using the Python script:
-    python train_fraud_detection_model.py
+   python train_fraud_detection_model.py
 
    Or using the Jupyter notebook: Open the notebook train_fraud_detection_model.ipynb in Jupyter and run the cells to train the model.
 
